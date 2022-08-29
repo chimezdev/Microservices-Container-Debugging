@@ -41,7 +41,7 @@ A platform that helps us manage the creation and life-cycle of our container. Of
 
 **_Note_**: This is only needed if you want to run the app locally. You don't need to install the dependencies or run the server if you are running the code inside a Docker container.
 
- Clone the repo: https://github.com/chimezdev/Udacity-ALX-Project-3.git
+ Clone the repo: https://github.com/chimezdev/Microservices-Container-Debugging.git
 - Install dependencies: `npm install`
 - Run server: `node server.js`
 
