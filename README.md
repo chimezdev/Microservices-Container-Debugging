@@ -59,4 +59,5 @@ A platform that helps us manage the creation and life-cycle of our container. Of
 run `docker ps` to get the running container id or `docker ps -a` to include terminated containers. 
 To get meta-data for a container, run `docker inspect` 
 `docker logs` prints all logs for a running container
-`docker exec -it <container id> will allow you ssh into the container. 
+`docker exec -it <container id> sh` will allow you ssh into the container. 
+`ps aux` to exit out of the container after debugging
