@@ -52,15 +52,15 @@ A platform that helps us manage the creation and life-cycle of our container. Of
 - You can run ` docker run -d <img id>` including the -d flag to run the container in the background. This will enable you to run other commands in your terminal while the container is running.
 
 ## Container Teardown
--open another terminal, run `docker ps` which will show running containers and their id under the column `CONTAINER ID` copy this id
+- open another terminal, run `docker ps` which will show running containers and their id under the column `CONTAINER ID` copy this id
 - Remove container: `docker kill {container_id}` 
 
 # Debugging Containers
-Run `docker ps` to get the running container id or `docker ps -a` to include terminated containers. 
-To get meta-data for a container, run `docker inspect` 
-`docker logs` prints all logs for a running container
-`docker exec -it <container id> sh` will allow you ssh into the container. 
-`ps aux` to exit out of the container after debugging
+- Run `docker ps` to get the running container id or `docker ps -a` to include terminated containers. 
+- To get meta-data for a container, run `docker inspect` 
+- `docker logs` prints all logs for a running container
+- `docker exec -it <container id> sh` will allow you ssh into the container. 
+- `ps aux` to exit out of the container after debugging
 =======
 `docker exec -it <container id> will allow you ssh into the container. 
 # Kubernetes-On-AWS
