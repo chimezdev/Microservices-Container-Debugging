@@ -56,13 +56,11 @@ A platform that helps us manage the creation and life-cycle of our container. Of
 - Remove container: `docker kill {container_id}` 
 
 # Debugging Containers
-run `docker ps` to get the running container id or `docker ps -a` to include terminated containers. 
+Run `docker ps` to get the running container id or `docker ps -a` to include terminated containers. 
 To get meta-data for a container, run `docker inspect` 
 `docker logs` prints all logs for a running container
-<<<<<<< HEAD
 `docker exec -it <container id> sh` will allow you ssh into the container. 
 `ps aux` to exit out of the container after debugging
 =======
 `docker exec -it <container id> will allow you ssh into the container. 
->>>>>>> f6c2e6f2bf9bb38a3388079382d75b01998ab8f3
 # Kubernetes-On-AWS
