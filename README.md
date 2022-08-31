@@ -41,7 +41,7 @@ A platform that helps us manage the creation and life-cycle of our container. Of
 
 **_Note_**: This is only needed if you want to run the app locally. You don't need to install the dependencies or run the server if you are running the code inside a Docker container.
 
- Clone the repo: https://github.com/chimezdev/Udacity-ALX-Project-3.git
+ Clone the repo: https://github.com/chimezdev/Microservices-Container-Debugging.git
 - Install dependencies: `npm install`
 - Run server: `node server.js`
 
@@ -59,5 +59,9 @@ A platform that helps us manage the creation and life-cycle of our container. Of
 run `docker ps` to get the running container id or `docker ps -a` to include terminated containers. 
 To get meta-data for a container, run `docker inspect` 
 `docker logs` prints all logs for a running container
+<<<<<<< HEAD
 `docker exec -it <container id> sh` will allow you ssh into the container. 
 `ps aux` to exit out of the container after debugging
+=======
+`docker exec -it <container id> will allow you ssh into the container. 
+>>>>>>> f6c2e6f2bf9bb38a3388079382d75b01998ab8f3
