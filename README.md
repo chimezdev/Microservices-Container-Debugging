@@ -65,3 +65,4 @@ To get meta-data for a container, run `docker inspect`
 =======
 `docker exec -it <container id> will allow you ssh into the container. 
 >>>>>>> f6c2e6f2bf9bb38a3388079382d75b01998ab8f3
+# Kubernetes-On-AWS
